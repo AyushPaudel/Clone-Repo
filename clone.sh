@@ -28,5 +28,5 @@ function save_arr_to_file {
 		echo "$error" >> $filename
 	done
 }
-save_arr_to_file lab3_error.txt "${error_repo1[@]}" 
-save_arr_to_file lab4_error.txt "${error_repo1[@]}" 
+save_arr_to_file repo1_error.txt "${error_repo1[@]}" 
+save_arr_to_file repo2_error.txt "${error_repo1[@]}" 
